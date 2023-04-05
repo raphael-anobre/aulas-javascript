@@ -48,3 +48,5 @@ console.log(tecnologias[0][2]); // JS
 console.log(tecnologias[1][1]); // Node
 console.log(tecnologias[2][1]); // Pothoshop
 
+
+
