@@ -106,22 +106,22 @@ formulario.addEventListener("submit", function (event) {
 
     console.log(nome, nota1, nota2, media, situacao);
 
-/* Pogramação para colocar os resultados no HTML */
+    /* Pogramação para colocar os resultados no HTML */
 
-// 1) Criar o elemento/tag que será colocada no HTML
-let paragrafo = document.createElement("p");
+    // 1) Criar o elemento/tag que será colocada no HTML
+    let paragrafo = document.createElement("p");
 
-// 2) Montar o conteúdo da nova tag
-paragrafo.innerHTML = `${nome} - ${media} - ${situacao}`;
+    // 2) Montar o conteúdo da nova tag
+    paragrafo.innerHTML = `${nome} - ${media} - ${situacao}`;
 
-// 3) Adicionar ao HTML de destino (injetar no DOM)
-divResultados.appendChild(paragrafo);
+    // 3) Adicionar ao HTML de destino (injetar no DOM)
+    divResultados.appendChild(paragrafo);
 
-// Limpar os campos
-formulario.reset();
+    // Limpar os campos
+    formulario.reset();
 
-// Devolver o foco (cursor) para o campo nome
-campoNome.focus();
+    // Devolver o foco (cursor) para o campo nome
+    campoNome.focus();
 
 
 
